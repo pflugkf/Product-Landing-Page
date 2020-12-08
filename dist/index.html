@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Product Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div id="main">
+  <header id="header">
+    <nav id="nav-bar" class="container">
+      <a id="logo-wrapper" href="https://www.xbox.com/" target="_blank">
+        <img id="nav-logo"
+          src="https://2.bp.blogspot.com/-J1jk8eLr6wc/XE4sZO6NaJI/AAAAAAAAHR8/OGM6hcWtzb84D5J58XWkZ0APtK5vOhIRwCK4BGAYYCw/s1600/Xbox%2Blogo%2B.png" />
+      </a>
+      <a href="#trailer-wrapper" class="nav-link">
+        <div id="L1">Trailer</div>
+      </a>
+      <a href="#info" class="nav-link">
+        <div id="L2">Details</div>
+      </a>
+      <a href="#form-wrapper" class="nav-link">
+        <div id="L3">Learn More</div>
+      </a>
+    </nav>
+
+    <div id="h-img-wrapper">
+      <img id="header-img" src="https://www.monster-shop.co.uk/wp-content/uploads/2020/01/Xbox-Series-X-Page-Header.jpg"
+        alt="XBOX Series X: Coming Soon" />
+    </div>
+  </header>
+
+  <h1 id="title" class="title-text">Power Your Dreams</h1>
+
+  <div id="trailer-wrapper" class="wrapper">
+    <iframe id="video" src="https://www.youtube.com/embed/0tUqIHwHDEc" alt="" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div id="info">
+    <h3 id="description">
+      Discover the fastest, most powerful Xbox ever with the new Xbox Series X. Transform your gaming experience with
+      this
+      next generation video game console.</h3>
+
+    <div id="details">
+      <div class="row">
+        <div class="detail-img-wrapper">
+          <img id="feature-img" class="detail-img"
+            src="https://www.overclock3d.net/gfx/articles/2018/12/06095113555l.jpg" />
+        </div>
+        <div class="detail-text">
+          <h2>Cutting-Edge Features</h2>
+          <p>Powered by a custom-designed AMD Zen 2 processor, the Xbox Series X will deliver a new level of performance
+            never before seen in a console. Our next-generation GDDR4 SSD will virtually eliminate loading times,
+            bringing
+            players into their games faster than ever. </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="detail-img-wrapper">
+          <img id="vis-img" class="detail-img"
+            src="https://hips.hearstapps.com/vidthumb/images/xbox-series-x-1576244644.jpg" />
+        </div>
+        <div class="detail-text">
+          <h2>World Class Visuals</h2>
+          <p>The Xbox Series X will run games in 4K at 60FPS, with the possibility of up to 120FPS,including support for
+            Variable Refresh Rate &#40;VRR&#41;, and 8K graphics capabilities. Additionally, our patented Variable Rate
+            Shading &#40;VRS&#41; technology will allow developers to get even more out of the Xbox Series X GPU.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="detail-img-wrapper">
+          <img id="bc-img" class="detail-img"
+            src="https://cdn.mos.cms.futurecdn.net/ni6uVzMDPFoKYttJg6QZAN-320-80.jpg" />
+        </div>
+        <div class="detail-text">
+          <h2>Full Backwards Compatibility</h2>
+          <p>One console, four generations of gaming. Thousands of your favorite games across four generations of Xbox
+            gaming, all your Xbox One accessories, and the industry-leading Xbox Game Pass will be available when you
+            power on your Xbox Series X this Holiday 2020.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="form-wrapper">
+    <!--Add a title for the form here-->
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label>Never miss an update:
+        <input class="form-item" id="email" type="email" placeholder="Enter your email" name="email" target="_blank" />
+      </label>
+
+      <input class="form-item" id="submit" type="submit" value="Join" />
+    </form>
+  </div>
+
+  <h2 id="product-title" class="title-text">Browse Our Other Consoles</h2>
+
+  <div id="product-list" class="container">
+    <a class="product-link" href="https://www.xbox.com/en-US/consoles/xbox-one-x?xr=shellnav" target="_blank">
+      <div id="product-1" class="products">
+        <div class="light-overlay">
+          <h4>Xbox One X</h4>
+          <p>The World's Most Powerful Console</p>
+        </div>
+      </div>
+    </a>
+    <a class="product-link" href="https://www.xbox.com/en-US/consoles/xbox-one-s?xr=shellnav" target="_blank">
+    <div id="product-2" class="products">
+      <div class="dark-overlay">
+        <h4>Xbox One S</h4>
+        <p>Cutting Edge Gaming, Affordable Price</p>
+      </div>
+    </div>
+    </a>
+    <a class="product-link" href="https://www.xbox.com/en-US/consoles/xbox-one-s/all-digital-edition" target="_blank">
+    <div id="product-3" class="products">
+      <div class="dark-overlay">
+        <h4>Xbox One All-Digital</h4>
+        <p>Disc-Free Gaming</p>
+      </div>
+    </div>
+    </a>
+  </div>
+
+</div>
+
+<footer id="footer">
+  <p>&copy; Microsoft 2020</p>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
